@@ -14,14 +14,14 @@ files = [
     REQUIRE_ADAPTER,
     {pattern: 'lib/jquery.js', included: false},
     {pattern: 'lib/angular.js', included: false},
-    {pattern: 'test/*.Spec.js', included: false},
+    {pattern: 'test/spec/*.Spec.js', included: false},
     'test/main-test.js'
 ];
 
 
 // list of files to exclude
 exclude = [
-    'src/main.js'
+    'app/js/main.js'
 ];
 
 
