@@ -12,8 +12,8 @@ files = [
     JASMINE_ADAPTER,
     REQUIRE,
     REQUIRE_ADAPTER,
-    {pattern: 'lib/jquery', included: false},
-    {pattern: 'lib/angular', included: false},
+    {pattern: 'lib/jquery.js', included: false},
+    {pattern: 'lib/angular.js', included: false},
     {pattern: 'test/*.Spec.js', included: false},
     'test/main-test.js'
 ];
