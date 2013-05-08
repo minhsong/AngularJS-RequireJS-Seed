@@ -18,6 +18,7 @@
     require({
         baseUrl:'/base/app/js',
         paths:{
+            jQuery: '../lib/jquery/jquery',
             'angular' : '../lib/angular/angular',
             'resource' : '../lib/angular/angular-resource',        
             'mocks' : '../../test/lib/angular/angular-mocks'

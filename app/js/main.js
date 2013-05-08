@@ -1,6 +1,6 @@
 require({
 	paths: {
-		domReady : '../lib/require/domReady',
+        jQuery: '../lib/jquery/jquery',
 		angular : '../lib/angular/angular',
 		resource : '../lib/angular/angular-resource'
     },

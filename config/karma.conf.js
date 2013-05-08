@@ -8,9 +8,9 @@ files = [
     {pattern:'app/lib/angular/angular.js', included:false},
      {pattern:'app/lib/angular/angular-resource.js', included:false},
     {pattern:'test/lib/angular/angular-mocks.js', included:false},
-    {pattern:'app/js/**/*.js', included:false}, //Produktionscode
-    {pattern:'test/unit/**/*.js', included:false}, //Testcode
-    'test/main-test.js' //requireJS-Konfiguration
+    {pattern:'app/js/**/*.js', included:false},
+    {pattern:'test/unit/**/*.js', included:false},
+    'test/main-test.js'
 ];
 
 autoWatch = true;
