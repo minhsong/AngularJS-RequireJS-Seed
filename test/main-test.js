@@ -18,9 +18,12 @@
     require({
         baseUrl:'/base/app/js',
         paths:{
-            jQuery: '../lib/jquery/jquery',
-            'angular' : '../lib/angular/angular',
-            'resource' : '../lib/angular/angular-resource',        
+            //jQuery: '../lib/jquery/jquery',
+            //jQuery: '../../bower_components/jquery/jquery',
+            //'angular' : '../lib/angular/angular',
+            'angular' : '../vendor/angular',
+            //'resource' : '../lib/angular/angular-resource',
+            'resource' : '../vendor/angular-resource',
             'mocks' : '../../test/lib/angular/angular-mocks'
         },
         shim:{
