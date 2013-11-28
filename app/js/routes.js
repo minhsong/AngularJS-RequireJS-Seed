@@ -1,11 +1,10 @@
-
-define(['app'], function (app) {
-	return app.config(['$routeProvider', function($routeProvider) {
-		$routeProvider.
-			when('/home', {
-				templateUrl: 'partials/home.html',
-				controller: 'homeController'
-			}).
-			otherwise({redirectTo:'/'});
-	}]);
+define(["app", "config"], function (app, config) {
+    return app.config(['$routeProvider', function ($routeProvider) {
+        $routeProvider.when("/", {
+            templateUrl: "js/partials/home.html"
+        })
+        .otherwise({
+            redirectTo: '/'
+        })
+    }])
 });

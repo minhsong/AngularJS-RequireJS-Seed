@@ -1,12 +1,18 @@
-angularjs-karma-jquery-requirejs-seed
-=====================================
+#AngularJs RequireJs Karma seed Project
 
-AngularJs, Karma Test Runner, jQuery and RequireJs seed application.
+This repository holds the base files needed to quickly set up a RequireJs based AngularJs
+Single Page Application (SPA). _check tags for stable downloads_
 
-To use grunt, Node.js needs to be installed, instructions to install Node.js not provided here.
-If Node.js is installed, from the dir where Gruntfile.js is: "npm install".
+This seed app includes basic unit test setup with RequireJs (e2e tests coming soon), karma.cong file,
+and a build file to run r.js for compilation/minification.
 
-This will make a dir in the top level named "node_modules".
+There are no e2e tests in this seed yet, but I inted to have that all set up in the next week.
 
-To run the unit tests, from the top level dir: grunt test.
-At this time, should see 8 out of 8 passed tests.
+#Why use this seed project instead of yeoman/yo seed generator?
+Currently the yeoman/yo (v1.0 Beta) generator does not support AngularJs with RequireJs. You can have either an AngularJS
+project or you can have a RequireJs project but you can't have both via yeoman/yo. :(
+
+
+###I intend to port this over to yeoman/yo as a generator but for now I am hoping this will do.
+
+

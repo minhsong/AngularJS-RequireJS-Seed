@@ -1,13 +1,6 @@
-/**
- * BaseService
- **/
- 
-define(['angular', 'services/homeService', 'resource'], 
- 	function (angular, HomeService) {
- 		
+define(['angular', 'services/galleryService'],
+ 	function (angular, galleryService) {
 		var services = angular.module('services', ['ngResource']);
-
- 		services.factory('homeService', HomeService);
-
+        services.factory("galleryService", galleryService);
  		return services;
  });
