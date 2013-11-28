@@ -18,5 +18,9 @@ define(['angular',
         it("Should have a property value", function () {
             expect($scope.movie.name).toBe("Batman");
         });
+
+        it("Should have another property", function () {
+            expect(1).toBe(1);
+        })
     })
 });
