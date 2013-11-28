@@ -3,6 +3,8 @@ define(['angular', 'services/services', 'directives/directives', 'providers/prov
     'use strict';
 
     return angular.module('myApp', [
+        'ngRoute',
+        'ngAnimate',
         'services',
         'directives',
         'providers',

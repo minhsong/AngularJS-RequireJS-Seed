@@ -8,7 +8,8 @@ requirejs({
         "jquery": "lib/jquery/jquery",
         "domReady": "lib/require/domReady",
         "unitTests": "../../tests/spec",
-        "mocks": "../../tests/mocks"
+        "mocks": "../../tests/mocks",
+        'angularRoute': 'lib/angular/angular-route'
     },
     "shim": {
         "jQuery": {"exports": "jquery"},
