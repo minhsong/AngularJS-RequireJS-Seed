@@ -8,6 +8,8 @@ define(function () {
         $scope.progressWidth = {width: "100%"};
         $scope.queueFileCount = 0;
         $scope.galleryService = galleryService;
+
+        $scope.something = "";
     }
 
     MainController.$inject = ['$scope', 'galleryService'];

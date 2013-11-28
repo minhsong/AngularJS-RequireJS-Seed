@@ -33,9 +33,5 @@ define(['angular',
             expect($scope.hasOwnProperty("queueFileCount")).toBe(true);
             expect($scope.queueFileCount).toBe(0);
         });
-
-        it("Should equal one", function () {
-            expect(1).toBe(1);
-        })
     })
 });

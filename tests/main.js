@@ -30,7 +30,8 @@ requirejs({
 },["domReady",
     "unitTests/directives/focusSpec",
     "unitTests/controllers/mainControllerSpec",
-    "unitTests/services/galleryServiceSpec"
+    "unitTests/services/galleryServiceSpec",
+    "unitTests/controllers/exampleControllerSpec"
 
 ],function (domReady) {
     domReady(function () {
