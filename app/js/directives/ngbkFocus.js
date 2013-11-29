@@ -2,9 +2,10 @@ define(function () {
     return function (){
         return {
             restrict: 'A',
-            scope: true,
+            replace: false,
+            template:'<p>hello world</p>',
             link: function (scope, lElement, attrs){
-               lElement.addClass('focus').focus();
+
             }
 
         }

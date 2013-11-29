@@ -28,10 +28,11 @@ requirejs({
         "angular"
     ]
 },["domReady",
-    "unitTests/directives/focusSpec",
     "unitTests/controllers/mainControllerSpec",
+    "unitTests/directives/ngbkFocusSpec",
     "unitTests/services/galleryServiceSpec",
-    "unitTests/controllers/exampleControllerSpec"
+    "unitTests/controllers/exampleControllerSpec",
+    "unitTests/directives/testDirectiveSpec"
 
 ],function (domReady) {
     domReady(function () {
