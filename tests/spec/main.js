@@ -1,7 +1,6 @@
 requirejs({
     "baseUrl": "/base/app/js",
     "paths": {
-        "config": "config",
         "angular": "lib/angular/angular",
         "angularMocks": "lib/angular/angular-mocks",
         "angularResource": "lib/angular/angular-resource",
@@ -12,7 +11,7 @@ requirejs({
         'angularRoute': 'lib/angular/angular-route'
     },
     "shim": {
-        "jQuery": {"exports": "jquery"},
+        "jquery": {"exports": "jquery"},
         "angular": {
             "deps" : ["jquery"],
             "exports": "angular"
@@ -29,7 +28,6 @@ requirejs({
     ]
 },["domReady",
     "unitTests/controllers/mainControllerSpec",
-    "unitTests/directives/ngbkFocusSpec",
     "unitTests/services/galleryServiceSpec",
     "unitTests/controllers/exampleControllerSpec",
     "unitTests/directives/testDirectiveSpec"

@@ -24,6 +24,6 @@ define(['angular', 'directives/testDirective', "angularMocks"], function (angula
 
         afterEach(function () {
             elem = null;
-        });
+        })
     })
 });

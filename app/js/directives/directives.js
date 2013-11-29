@@ -4,9 +4,8 @@ define(['angular',
     "directives/testDirective"],
     function (angular, ngbkFocus, exampleDirective, testDirective){
         var directives = angular.module('directives', []);
-
-        directives.directive("exampleDirective", exampleDirective);
         directives.directive('ngbkFocus', ngbkFocus);
+        directives.directive("exampleDirective", exampleDirective);
         directives.directive("testDirective", testDirective);
 
 
