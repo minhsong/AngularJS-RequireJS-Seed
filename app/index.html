@@ -6,11 +6,9 @@
 <body>
 <h1>Hello World</h1>
 
-
 <div data-ng-controller="mainController">
 
-
-    <div data-ng-controller="exampleController" class="control">
+    <div data-ng-controller="exampleController">
         <div>{{movie.name}}</div>
         <div data-example-directive></div>
     </div>
@@ -18,6 +16,7 @@
     <div data-ng-view class="view-enter-fade"></div>
 
 </div>
+
 <script data-main="js/main" src="js/lib/require/require.js"></script>
 </body>
 </html>
