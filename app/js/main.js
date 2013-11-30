@@ -33,10 +33,10 @@ requirejs({
     urlArgs: "v=0.1"
 }, ["angular",
     "domReady",
+    "jquery",
     "ngResource",
     "angularRoute",
     "angularAnimate",
-    "jquery",
     "app",
     "config",
     "routes",
@@ -45,9 +45,11 @@ requirejs({
     "providers/providers",
     "filters/filters",
     "controllers/controllers",
-    "animations/animations"], function (angular, domReady) {
+    "animations/animations"], function (angular, domReady, $) {
     domReady(function () {
-        return angular.bootstrap(document, ["myApp"]);
+        var appElm = $('html');
+        var app =  angular.bootstrap(appElm, ["myApp"]);
+        appElm.addClass('ng-app');
     });
 });
 

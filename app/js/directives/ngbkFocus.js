@@ -6,7 +6,6 @@ define(function () {
             link: function (scope, lElement, attrs){
                lElement.addClass("focus").focus();
             }
-
         }
     }
 });
