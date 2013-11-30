@@ -1,12 +1,9 @@
 describe("Font end tests", function () {
    beforeEach(function () {
        browser().navigateTo('../../index.html');
-
-
    });
 
     it("Control class should exist", function () {
-
         expect(element(".control").count()).toBe(1);
     });
 
