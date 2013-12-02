@@ -8,6 +8,15 @@ define(['jquery'],function ($) {
               }, 2000, function() {
                   done()
               });
+          },
+
+          leave : function(element, done) {
+
+
+          },
+
+          move : function(element, done) {
+
           }
       };
   }
