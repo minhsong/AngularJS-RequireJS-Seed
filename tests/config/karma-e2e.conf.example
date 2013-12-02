@@ -3,7 +3,7 @@
 module.exports = function (config) {
     config.set({
         basePath: '../../',
-        frameworks: ['jasmine', 'requirejs'],
+        frameworks: ['ng-scenario'],
         files: ['tests/e2e/**/*Spec.js'],
         exclude: [],
         reporters: ['progress'],
@@ -17,7 +17,7 @@ module.exports = function (config) {
         captureTimeout:60000,
         singleRun: false,
         proxies:{
-            "/":"http://localhost/myapp/" //EDIT THIS TO YOUR NEEDS
+            "/":"http://dev.karma.com/" //EDIT THIS TO YOUR NEEDS
         }
     });
 };
