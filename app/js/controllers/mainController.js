@@ -1,17 +1,15 @@
-/**
- * Created by Edgar Martinez on 8/12/13.
- */
 define(function () {
-    function MainController($scope, galleryService) {
+    function MainController($scope) {
         $scope.uploadErrors = [];
         $scope.asyncMessage = [];
         $scope.progressWidth = {width: "100%"};
         $scope.queueFileCount = 0;
-        $scope.galleryService = galleryService;
 
         $scope.something = "";
+        $scope.yourName = 'Edgar';
+
     }
 
-    MainController.$inject = ['$scope', 'galleryService'];
+    MainController.$inject = ['$scope'];
     return MainController;
 });
